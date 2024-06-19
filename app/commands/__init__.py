@@ -1,5 +1,7 @@
 from abc import ABC, abstractmethod
 
+from distutils.cmd import Command
+
 class command(ABC):
     @abstractmethod
     def execute(self):
